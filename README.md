@@ -1,16 +1,12 @@
 # mmi_manager
 
-A new Flutter application.
+App used to validate, store and run common MMI and USSD codes used by Jamaicans. The app was created targeting MMI as USSD codes commonly used by FLOW and Digicel to perform tasks including, but not limited to:
 
-## Getting Started
+* Credit TopUp - *121*\<voucher code\>#
+* Checking Credit Balance - *120# OR *120*1# for postpaid Digicel numbers
+* Check Data Plan Status - *129*6*7# for FLOW
+* Send Credit - *128*\<target phone number\>\*\<amount\>#
 
-This project is a starting point for a Flutter application.
+The current app does not have coverage for all MMI and USSD codes.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Phones with multiple sim cards are supported. The target sim card to execute the USSD code may be selected.
